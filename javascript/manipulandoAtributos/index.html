@@ -4,8 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+      .fonte-grande{
+        font-size: 30px;
+        font-weight: bold;
+      }
+    </style>
 </head>
 <body>
-    <script type="module" src="index.js"></script>
+    <h1>Manipulando estilos</h1>
+    <button onclick="alterarCorDeFundoPrimeiroPost()">Alterar cor de fundo do Primeiro Post</button>
+    <br>
+    <br>
+    <button onclick="alterarCorDeFundoPrimeiroPost()">Alterar cor de fundo do Primeiro Post</button>
+
+
+    <article class="post">
+      <p><strong>Ricardo Dias</strong><span>@cadHD - 10 min</span></p>
+      <p class="texto-post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur 
+        assumenda doloremque iste maiores quas ratione quis eum odit nobis 
+        commodi sed accusamus voluptates, explicabo voluptate quibusdam quisquam 
+        repellat. Nisi, maiores?</p>
+        <br>
+    </article>
+
+    <article class="post">
+        <p><strong>Ricardo Dias</strong><span>@cadHD - 10 min</span></p>
+        <p class="texto-post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur 
+          assumenda doloremque iste maiores quas ratione quis eum odit nobis 
+          commodi sed accusamus voluptates, explicabo voluptate quibusdam quisquam 
+          repellat. Nisi, maiores?</p>
+          
+      </article> 
+      <h2>Manipulando atributos</h2>
+      <button onclick="marcarRadio('F')">Marcar  radio feminino</button>
+      <button onclick="marcarRadio('M')">Marcar  radio masculino</button>
+
+      <br><br>
+
+      Masculino <input type="radio" name="genero" id="genero-masculino">
+
+      feminino <input type="radio" name="genero" id="genero-feminino">
+
+
+
+      
+
+
+
+    <script src="index.js"></script>
 </body>
 </html>
