@@ -1,0 +1,5 @@
+serifadas
+sansserif - texto longos
+monoespaçadas
+handwriting
+display
