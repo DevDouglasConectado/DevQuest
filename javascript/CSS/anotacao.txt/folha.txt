@@ -3,3 +3,13 @@ sansserif - texto longos
 monoespaçadas
 handwriting
 display
+
+
+    medidas absolutas
+    cm, mm, in, px, pt
+
+    Medidas relativas
+    em, ex, rem, vm, vh, %
+
+    
+

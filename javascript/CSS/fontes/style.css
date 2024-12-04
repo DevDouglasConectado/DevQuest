@@ -8,5 +8,18 @@ body{
     em, ex, rem, vm, vh, %
 
     */
-  font-size: 1.5em;
+  font-size: 1em;
+}
+
+h1{
+
+    /*font-family: 'work sans', sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+    font-style: italic;*/
+    
+    /*shorthand font
+    -fonte-style -> font-weight -> font-size -> font-family
+    */
+    font: italic bolder 3em 'work Sans', sans-serif;
 }
